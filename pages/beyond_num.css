@@ -2,6 +2,7 @@
     text-align: center;
     background-color: #ffffff;
     font-family: 'poppins', sans-serif;
+    color:rgb(218, 128, 76);;
 }
 nav{
     position: fixed;
@@ -115,17 +116,24 @@ nav a{
     display: none;
 }
 .data{
-    margin-top: 40px;
-    
+    margin-top: 20px;
+    color: black;
 }
 .data p{
   animation: fade-in 6s ease;
+  color: black;
 }
 h2{
     text-decoration: wavy;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #e5a186;
+    background-color: #e5a186;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 10px;
     animation: fade-in 2s ease;
 }
 img{
