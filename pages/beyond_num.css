@@ -115,11 +115,16 @@ nav a{
   .menu-toggle {
     display: none;
 }
+.data1{
+    margin-top: 40px;
+    padding: 40px;
+    color: black;
+}
 .data{
     margin-top: 20px;
     color: black;
 }
-.data p{
+.data p,.data1 p{
   animation: fade-in 6s ease;
   color: black;
 }
@@ -135,6 +140,13 @@ h2{
     padding-left: 2px;
     border-radius: 10px;
     animation: fade-in 2s ease;
+}
+.data1 h2{
+  background-color: #e5a186;
+  color: white;
+  padding-right: 2px;
+  padding-left: 2px;
+
 }
 img{
     border: 2px solid black;
