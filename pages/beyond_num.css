@@ -164,3 +164,6 @@ img{
         transform: translateY(0);
     }
 }
+.data h3{
+  text-decoration: underline;
+}
